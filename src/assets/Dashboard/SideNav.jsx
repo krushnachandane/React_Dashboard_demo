@@ -23,7 +23,11 @@ function SideNav() {
      AH:[
           {label:'Loan Disbursement' , to:'/dashboard/loandisbursment'},
           {label:'Create Ladger' , to:'/dashboard/createledger'}
-        ]
+        ],
+CUSTOMER:[
+          {label:'Add Customer' , to:'/dashboard/addcustomer'},
+          {label:'View Customer' , to:'/dashboard/viewcustomer'}
+         ]
   }
  
     return (
