@@ -10,6 +10,8 @@ import DocumentVerification from '../Modules/OE/DocumentVerification'
 import CreateLedger from '../Modules/AH/CreateLedger'
 import LoanDisbursement from '../Modules/AH/LoanDisbursement'
 import CheckCibil from '../Modules/OE/CheckCibil'
+import AddCustomer from '../Modules/CUSTOMER/AddCustomer'
+import ViewCustomer from '../Modules/CUSTOMER/ViewCustomer'
 
 function Dashboard() {
   
@@ -35,7 +37,11 @@ function Dashboard() {
                      AH:[
                           {path:'createledger' , component:<CreateLedger/>},
                           {path:'loandisbursment' , component:<LoanDisbursement/>}
-                        ]   
+                        ],
+                CUSTOMER:[
+                          {path:'addcustomer' , component:<AddCustomer/>},
+                          {path:'viewcustomer' ,component:<ViewCustomer/>}
+                         ]   
 
                     }
 
